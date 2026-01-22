@@ -18,7 +18,7 @@ from prettymapp.settings import STYLES
 st.set_page_config(
     page_title="prettymapp", page_icon="🖼️", initial_sidebar_state="collapsed"
 )
-st.markdown("# Prettymapp")
+st.markdown("# Prettymapp21")
 
 _HERE = Path(__file__).resolve().parent
 with (_HERE / "examples.json").open("r", encoding="utf8") as f:
