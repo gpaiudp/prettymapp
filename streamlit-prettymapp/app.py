@@ -54,12 +54,12 @@ form = st.form(key="form_settings")
 col1, col2, col3 = form.columns([3, 1, 1])
 
 address = col1.text_input(
-    "Location address",
+    "Location address21",
     key="address",
 )
 radius = col2.slider(
-    "Radius (meter)",
-    100,
+    "Radius21 (meter)",
+    200,
     1500,
     key="radius",
 )
